@@ -340,22 +340,26 @@ button {
 
 .team-soc-list {
   display: flex;
+  /* width: 206px; */
   justify-content: center;
   gap: 10px;
+  margin-right: 32px;
+  margin-left: 32px;
 }
 
 .team-soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* color: #AFB1B8; */
 }
 
 .team-soc-icon {
-  color: currentColor;
+  fill: #AFB1B8;
 }
 
 /* Футер */
