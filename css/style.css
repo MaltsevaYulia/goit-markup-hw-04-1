@@ -251,6 +251,8 @@ button {
   height: 120px;
   /* outline: 2px solid red; */
   background: #f5f4fa;
+  background-position: center;
+  background-size: contain;
   border-radius: 4px;
   margin-bottom: 30px;
 }
@@ -328,12 +330,34 @@ button {
   line-height: 1.19;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 16px;
 }
 
 .card {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-soc-icon {
+  color: currentColor;
+}
+
 /* Футер */
 .footer {
   background: var(--page-background);
