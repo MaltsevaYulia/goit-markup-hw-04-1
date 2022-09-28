@@ -306,12 +306,12 @@ button {
   padding-bottom: 94px;
 }
 
-.team .list {
+.team-list {
   display: flex;
   gap: 30px;
 }
 
-.team-list {
+.team-item {
   background-color: var(--main-background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -340,6 +340,7 @@ button {
 
 .team-soc-list {
   display: flex;
+  
   /* width: 206px; */
   justify-content: center;
   gap: 10px;
@@ -355,11 +356,18 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: #AFB1B8; */
+  color: #AFB1B8;
+  
 }
 
 .team-soc-icon {
-  fill: #AFB1B8;
+  fill: currentColor;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Футер */
