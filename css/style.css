@@ -60,7 +60,7 @@ button {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
 .link {
@@ -125,6 +125,7 @@ button {
 .header-contact .link:hover,
 .header-contact .link:focus {
   color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .current {
@@ -340,7 +341,7 @@ button {
 
 .team-soc-list {
   display: flex;
-  
+
   /* width: 206px; */
   justify-content: center;
   gap: 10px;
@@ -356,8 +357,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AFB1B8;
-  
+  color: #afb1b8;
 }
 
 .team-soc-icon {
@@ -368,6 +368,37 @@ button {
 .team-soc-link:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+
+/* Постійні клієнти */
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  
+}
+
+.client-item {
+  
+}
+
+.client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+  
+  
+}
+
+.client-icon {
+  fill: currentColor;
+  outline: 2px solid red;
 }
 
 /* Футер */
