@@ -165,6 +165,9 @@ button {
   background: var(--page-background);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   text-align: center;
 }
@@ -376,18 +379,16 @@ button {
   display: flex;
   justify-content: center;
   gap: 30px;
-  
 }
 
 .client-item {
-  
 }
 
 .client-link {
   display: flex;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
@@ -443,24 +444,22 @@ button {
 }
 
 .join {
-
 }
 
 .join-title {
   font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .join-list {
-
+  display: flex;
 }
 
 .join-link {
-  
 }
 /* -------Портфоліо-------- */
 
