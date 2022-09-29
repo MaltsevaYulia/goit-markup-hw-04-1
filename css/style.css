@@ -482,7 +482,6 @@ button {
 .join-link:hover,
 .join-link:focus {
   background-color: var(--accent-color);
-  color: var(--accent-color);
 }
 /* -------Портфоліо-------- */
 
