@@ -27,17 +27,27 @@
         <a href="./index.html" class="logo link">Web<span class="logo-part">Studio</span></a>
         <nav class="header-navigation">
           <ul class="header-nav list">
-            <li class="item"><a href="./index.html" class="nav-link link ">Студія</a></li>
-            <li class="item"><a href="./portfolio.html" class="nav-link link current">Портфоліо</a></li>
+            <li class="item"><a href="./index.html" class="nav-link link">Студія</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="nav-link link current">Портфоліо</a>
+            </li>
             <li class="item"><a href="" class="nav-link link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="header-contact list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link"
+              ><svg class="header-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link"
+              ><svg class="header-icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -54,7 +64,7 @@
             <li><button class="portfolio-btn" type="button">Дизайн</button></li>
             <li><button class="portfolio-btn" type="button">Маркетинг</button></li>
           </ul>
-        <!-- </div>
+          <!-- </div>
         <div class="portfolio-galary container"> -->
           <ul class="list list-galary">
             <li class="item">
@@ -132,8 +142,9 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo link">Web<span class="footer-logo-part">Studio</span></a>
+      <div class="footer-container container">
+        <div>
+          <a href="./index.html" class="logo link">Web<span class="footer-logo-part">Studio</span></a>
         <address class="footer-addres">
           <ul class="footer-list list">
             <li class="footer-item">
@@ -153,6 +164,16 @@
             </li>
           </ul>
         </address>
+        </div>
+        <div class="join">
+          <h3 class="join-title">Приєднуйтесь</h3>
+          <ul class="join-list list">
+            <li class="join-item"><a class="join-link" href=""><svg class="footer-soc-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram"</use></svg></a></li>
+            <li class="join-item"><a class="join-link" href=""><svg class="footer-soc-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-twitter"</use></svg></a></li>
+            <li class="join-item"><a class="join-link" href=""><svg class="footer-soc-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook"</use></svg></a></li>
+            <li class="join-item"><a class="join-link" href=""><svg class="footer-soc-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin"</use></svg></a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

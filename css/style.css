@@ -60,7 +60,7 @@ button {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .link {
@@ -152,6 +152,12 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Hero */
 .hero {
   max-width: 1600px;
@@ -446,7 +452,7 @@ button {
 
 .join {
   margin-left: 70px;
-  padding-top: 72px;
+  padding-top: 12px;
 }
 
 .join-title {
