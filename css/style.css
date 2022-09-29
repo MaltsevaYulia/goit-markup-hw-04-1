@@ -396,7 +396,6 @@ button {
 
 .client-icon {
   fill: currentColor;
-  /* outline: 2px solid red; */
 }
 
 .client-link:hover,
@@ -443,6 +442,26 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.join {
+
+}
+
+.join-title {
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.join-list {
+
+}
+
+.join-link {
+  
+}
 /* -------Портфоліо-------- */
 
 .portfolio {
