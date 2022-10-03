@@ -125,7 +125,7 @@ button {
 .header-contact .link:hover,
 .header-contact .link:focus {
   color: var(--accent-color);
-  text-decoration: underline;
+  
 }
 
 .current {
@@ -134,6 +134,7 @@ button {
 
 .header-contact {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -142,15 +143,15 @@ button {
 }
 
 .header-contact .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   font-family: inherit;
   font-weight: 500;
-  /* font-size: 14px; */
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  align-items: center;
 }
 
 .header-icon {
@@ -579,10 +580,18 @@ button {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  /* border: 1px solid #eeeeee; */
 }
 
 .portfolio-item:hover,
 .portfolio-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+/* .portfolio-galary-link {
+  display: block;
+}
+
+.portfolio-galary-link:hover,
+.portfolio-galary-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
